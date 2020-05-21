@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import React from 'react';
 import Shop from './pages/Shop';
 import Sidebar from './components/Sidebar';
-import Terms from './pages/Terms';
 
 function App() {
     return (
@@ -17,7 +16,6 @@ function App() {
                     <Route exact path="/" component={Home} />
                     <Route path="/shop" component={Shop} />
                     <Route path="/contact" component={Contact} />
-                    <Route path="/terms" component={Terms} />
                 </Row>
             </Container>
         </Router>
