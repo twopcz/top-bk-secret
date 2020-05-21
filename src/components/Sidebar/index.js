@@ -17,11 +17,11 @@ function Sidebar() {
     ];
 
     return (
-        <Navbar as="ul">
+        <Navbar as="ul" className="py-0 my-0">
             <div className="sidebar sidebar-sticky bg-light d-flex flex-column">
                 <div>
                     <h4 className="px-2">
-                        <a href="/home" className="navbar-brand m-0">
+                        <a href="/" className="navbar-brand m-0">
                             BZY KAI
                         </a>
                     </h4>
