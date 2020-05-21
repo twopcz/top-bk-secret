@@ -1,0 +1,26 @@
+import './style.css';
+import { Col, Container, Row } from 'react-bootstrap';
+import React from 'react';
+import Countdown from 'react-countdown';
+import Union from './union1s.png';
+
+export default function Shop() {
+    return (
+        <Container fluid className="h-100">
+            <Row className="h-100">
+                <div className="my-auto">
+                    <div className="d-flex flex-column">
+                        <Col className="text-center">
+                            <img src={Union} className="img-fluid"></img>
+                        </Col>
+                        <Col className="text-center">
+                            <div className="counter">
+                                <Countdown date={Date.now() + 322560000} />
+                            </div>
+                        </Col>
+                    </div>
+                </div>
+            </Row>
+        </Container>
+    );
+}
