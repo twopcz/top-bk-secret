@@ -6,7 +6,7 @@ import { Row } from 'react-bootstrap';
 export default function Gallery() {
     return (
         <Row className="h-100">
-            <div className="gallery d-flex flex-column flex-md-row flex-nowrap mx-2 my-auto">
+            <div className="gallery d-flex flex-column flex-md-row flex-nowrap my-auto">
                 {imageData.map((image, index) => (
                     <div className="gallery-item" key={`gallery-${index}`}>
                         <img
