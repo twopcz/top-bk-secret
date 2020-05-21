@@ -1,9 +1,10 @@
-import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import './style.css';
+import { Col } from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import React from 'react';
 
-function Sidebar() {
+export default function Sidebar() {
     const navItems = [
         {
             page: 'SHOP'
@@ -17,46 +18,44 @@ function Sidebar() {
     ];
 
     return (
-        <Navbar as="ul" className="py-0 my-0">
-            <div className="sidebar sidebar-sticky bg-light d-flex flex-column">
-                <div>
-                    <h4 className="px-2">
-                        <a href="/" className="navbar-brand m-0">
-                            BZY KAI
-                        </a>
-                    </h4>
-                </div>
-                <div className="d-flex flex-column justify-content-between h-100">
-                    <div>
-                        <Nav className="h-100 d-flex flex-column">
+        <Col md={1} className="p-0 bg-light sidebar-container">
+            <Navbar
+                expand
+                bg="light"
+                className="flex-md-column flex-row sidebar h-100 py-2"
+            >
+                <Navbar.Collapse className="side-nav h-100 w-100">
+                    <ul className="flex-md-column flex-row justify-content-between navbar-nav h-100 w-100">
+                        <div className="d-flex flex-row flex-md-column">
+                            <Nav.Item as="li">
+                                <Nav.Link href="/">
+                                    <b>BZY KAI</b>
+                                </Nav.Link>
+                            </Nav.Item>
                             {navItems.map((link, index) => (
                                 <Nav.Item as="li" key={`list-${index}`}>
                                     <Nav.Link
                                         href={`/${link.page.toLowerCase()}`}
+                                        className="text-center text-md-left"
                                     >
                                         {link.page}
                                     </Nav.Link>
                                 </Nav.Item>
                             ))}
-                        </Nav>
-                    </div>
-                    <div className="text-center py-2 contact-info">
-                        <a
-                            href="https://www.instagram.com/bzy.kai/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-1"
-                        >
-                            <i className="fab fa-instagram fa-lg"></i>
-                        </a>
-                        <a className="px-1" href="mailto:info@bzy-kai.com">
-                            <i className="far fa-envelope fa-lg"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </Navbar>
+                        </div>
+                        <div className="d-flex justify-content-center py-2 contact-info">
+                            <a
+                                href="https://www.instagram.com/bzy.kai/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="my-auto"
+                            >
+                                <i className="fab fa-instagram fa-lg"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </Navbar.Collapse>
+            </Navbar>
+        </Col>
     );
 }
-
-export default Sidebar;
