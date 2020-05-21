@@ -1,0 +1,12 @@
+.gallery {
+    overflow-x: auto;
+}
+
+.gallery-item {
+    flex: 0 0 auto;
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+}
