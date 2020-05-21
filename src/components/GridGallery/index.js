@@ -27,14 +27,16 @@ export default function GridGallery() {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
-            <GridList className={classes.gridList} cols={2.5}>
-                {tileData.map((tile) => (
-                    <GridListTile className="testing" key={tile.img}>
-                        <img src={tile.img} alt={tile.title} />
-                    </GridListTile>
-                ))}
-            </GridList>
+        <div>
+            <div className={classes.root}>
+                <GridList className={classes.gridList} cols={3}>
+                    {tileData.map((tile) => (
+                        <GridListTile className="testing" key={tile.img}>
+                            <img src={tile.img} alt={tile.title} />
+                        </GridListTile>
+                    ))}
+                </GridList>
+            </div>
         </div>
     );
 }
