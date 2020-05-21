@@ -11,11 +11,15 @@ export default function Shop() {
                 <div className="my-auto mx-auto">
                     <div className="d-flex flex-column">
                         <Col md={8} className="text-center mx-auto">
-                            <img src={Union} className="img-fluid"></img>
+                            <img
+                                src={Union}
+                                className="img-fluid"
+                                alt="laker-unions"
+                            ></img>
                         </Col>
                         <Col md={8} className="text-center mx-auto">
                             <div className="counter">
-                                <Countdown date={`2020-05-24T12:00:00`} />
+                                <Countdown date={new Date(1590346800000)} />
                             </div>
                         </Col>
                     </div>
