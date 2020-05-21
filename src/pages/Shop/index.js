@@ -15,7 +15,7 @@ export default function Shop() {
                         </Col>
                         <Col className="text-center">
                             <div className="counter">
-                                <Countdown date={Date.now() + 322560000} />
+                                <Countdown date={`2020-05-24T12:00:00`} />
                             </div>
                         </Col>
                     </div>
