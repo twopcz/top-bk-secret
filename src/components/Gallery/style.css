@@ -1,5 +1,5 @@
 .gallery {
-    overflow-x: auto;
+    overflow-x: hidden auto;
 }
 
 .gallery-item {
