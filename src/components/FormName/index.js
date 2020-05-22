@@ -5,17 +5,19 @@ import React from 'react';
 export default function FormName() {
     const labels = [
         {
+            control: 'firstName',
             label: 'First Name',
             invalid: 'Please enter your first name.'
         },
         {
+            control: 'lastName',
             label: 'Last Name',
             invalid: 'Please enter your last name'
         }
     ];
 
     return (
-        <Form.Group controlId="name">
+        <Form.Group>
             <Form.Row>
                 {labels.map((data, index) => (
                     <Col key={`name-${index}`}>
@@ -23,6 +25,7 @@ export default function FormName() {
                             <b>{data.label.toUpperCase()}</b>
                         </Form.Label>
                         <Form.Control
+                            id={data.control}
                             required
                             type="text"
                             placeholder={data.label}
