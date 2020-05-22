@@ -62,7 +62,7 @@ export default function FormBody() {
                         <>
                             <Form.Control
                                 required
-                                type="text"
+                                type={data.label === `Email` ? `email` : `text`}
                                 placeholder={data.label}
                             />
                             <Form.Control.Feedback type="invalid">
