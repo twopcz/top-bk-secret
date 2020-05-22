@@ -11,9 +11,6 @@ export default function Sidebar() {
         },
         {
             page: 'CONTACT'
-        },
-        {
-            page: 'TERMS'
         }
     ];
 
