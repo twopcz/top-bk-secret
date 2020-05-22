@@ -14,7 +14,7 @@ export default function FormBody() {
             invalid: `Please enter a shoe style.`
         },
         {
-            control: `shoeSizeSelect`,
+            control: `shoeSize`,
             label: `Shoe Size (US MEN'S)`
         }
     ];

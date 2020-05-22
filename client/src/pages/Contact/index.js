@@ -7,7 +7,7 @@ export default function Contact() {
     return (
         <Col className="my-auto d-flex flex-column justify-content-center">
             <Col md={6} className="text-center mx-auto">
-                <img src={Union} className="img-fluid" alt="laker-unions"></img>
+                {/* <img src={Union} className="img-fluid" alt="laker-unions"></img> */}
             </Col>
             <Col md={6} className="mx-auto">
                 <ContactForm />
