@@ -1,39 +1,34 @@
 const express = require(`express`);
-const bodyParser = require(`body-parser`);
-const nodemailer = require(`nodemailer`);
-const cors = require(`cors`);
-const config = require('./config/config.js');
 const app = express();
+const PORT = process.env.PORT || 3001;
+const nodemailer = require(`nodemailer`);
+const creds = require(`./config/config`);
+const cors = require(`cors`);
 
-const localport = 3001;
-
-const transporter = nodemailer.createTransport({
-    service: `Gmail`,
-    port: 465,
+const transport = {
+    host: 'smtp.hostinger.com',
+    port: 587,
+    // host: `imap.hostinger.com`,
+    // port: 993,
+    secure: false,
     auth: {
-        user: config.USER,
-        pass: config.PASS
+        user: creds.USER,
+        pass: creds.PASS
     }
-});
+};
+
+const transporter = nodemailer.createTransport(transport);
 
 transporter.verify((error, success) => {
     if (error) {
-        console.log(`error`);
+        console.log(error);
     } else {
-        console.log(`Server is ready to take messages`);
+        console.log(`Nodemailer working!`);
     }
 });
 
-const PORT = process.env.PORT || localport;
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-
 app.use(cors());
-
-if (process.env.NODE_ENV === `production`) {
-    app.use(express.static(`${__dirname}/build}`));
-}
+app.use(express.json());
 
 app.post(`/send`, (req, res, next) => {
     const firstName = req.body.firstName;
@@ -46,7 +41,7 @@ app.post(`/send`, (req, res, next) => {
 
     const mail = {
         from: `${firstName} ${lastName}`,
-        to: `testingbzykai@gmail.com`,
+        to: `info@bzy-kai.com`,
         subject: `Inquiry from BZY-KAI.com`,
         text: content
     };
@@ -64,6 +59,4 @@ app.post(`/send`, (req, res, next) => {
     });
 });
 
-app.listen(PORT, () =>
-    console.log(`API server up on http://localhost:${PORT}`)
-);
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
