@@ -12,11 +12,15 @@ export default function ContactForm() {
 
     const handleSubmit = (event) => {
         const form = event.currentTarget;
+
         if (form.checkValidity() === false) {
             event.preventDefault();
             event.stopPropagation();
-        } else {
-            setValidated(true);
+        }
+        setValidated(true);
+
+        if (form.checkValidity() === true) {
+            event.preventDefault();
             const firstName = document.getElementById(`firstName`).value;
             const lastName = document.getElementById(`lastName`).value;
             const email = document.getElementById(`email`).value;
@@ -26,7 +30,7 @@ export default function ContactForm() {
 
             axios({
                 method: `POST`,
-                url: `http://localhost:3000/send`,
+                url: `http://localhost:3001/send`,
                 data: {
                     firstName: firstName,
                     lastName: lastName,
@@ -46,38 +50,9 @@ export default function ContactForm() {
         }
     };
 
-    // const handleBtnSubmit = (event) => {
-    //     event.preventDefault();
-    //     const firstName = document.getElementById(`firstName`).value;
-    //     const lastName = document.getElementById(`lastName`).value;
-    //     const email = document.getElementById(`email`).value;
-    //     const shoeStyle = document.getElementById(`shoeStyle`).value;
-    //     const shoeSize = document.getElementById(`shoeSize`).value;
-    //     const info = document.getElementById(`info`).value;
-
-    //     axios({
-    //         method: `POST`,
-    //         url: `http://localhost:3000/send`,
-    //         data: {
-    //             firstName: firstName,
-    //             lastName: lastName,
-    //             email: email,
-    //             shoeStyle: shoeStyle,
-    //             shoeSize: shoeSize,
-    //             info: info
-    //         }
-    //     }).then((res) => {
-    //         if (res.data.msg === `success`) {
-    //             console.log(`Message Sent`);
-    //             resetForm();
-    //         } else if (res.data.msg === `fail`) {
-    //             console.log(`Failed to send`);
-    //         }
-    //     });
-    // };
-
     const resetForm = () => {
         document.getElementById(`contact-form`).reset();
+        setValidated();
     };
 
     return (
@@ -85,6 +60,7 @@ export default function ContactForm() {
             <Form
                 noValidate
                 validated={validated}
+                method="POST"
                 onSubmit={handleSubmit}
                 id="contact-form"
             >
