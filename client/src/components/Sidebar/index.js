@@ -25,7 +25,7 @@ export default function Sidebar() {
                     <ul className="flex-md-column flex-row justify-content-between navbar-nav h-100 w-100">
                         <div className="d-flex flex-row flex-md-column">
                             <Nav.Item as="li">
-                                <Nav.Link href="/">
+                                <Nav.Link href="/home">
                                     <b>BZY KAI</b>
                                 </Nav.Link>
                             </Nav.Item>

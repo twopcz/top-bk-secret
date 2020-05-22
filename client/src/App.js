@@ -13,7 +13,8 @@ function App() {
             <Container fluid className="h-100">
                 <Row className="min-vh-100 flex-column flex-md-row">
                     <Sidebar />
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/" component={Shop} />
+                    <Route path="/home" component={Home} />
                     <Route path="/shop" component={Shop} />
                     <Route path="/contact" component={Contact} />
                 </Row>
