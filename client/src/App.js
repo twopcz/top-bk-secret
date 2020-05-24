@@ -15,7 +15,6 @@ function App() {
                     <Sidebar />
                     <Route exact path="/" component={Shop} />
                     <Route path="/home" component={Home} />
-                    <Route path="/shop" component={Shop} />
                     <Route path="/contact" component={Contact} />
                 </Row>
             </Container>
