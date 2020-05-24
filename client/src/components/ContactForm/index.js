@@ -4,7 +4,6 @@ import emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form';
 import React, { useState } from 'react';
 import FormBody from '../FormBody';
-import FormName from '../FormName';
 import FormText from '../FormText';
 
 export default function ContactForm() {
@@ -23,18 +22,14 @@ export default function ContactForm() {
         if (form.checkValidity() === true) {
             event.preventDefault();
             const email = document.getElementById(`email`).value;
-            const firstName = document.getElementById(`firstName`).value;
-            const info = document.getElementById(`info`).value;
-            const lastName = document.getElementById(`lastName`).value;
-            const shoeSize = document.getElementById(`shoeSize`).value;
-            const shoeStyle = document.getElementById(`shoeStyle`).value;
+            const name = document.getElementById(`name`).value;
+            const message = document.getElementById(`message`).value;
 
             const templateParams = {
-                subject: `Custom Inquiry From BZY-KAI.com - ${shoeStyle} ${shoeSize}`,
-                name: `Name: ${firstName} ${lastName}`,
+                subject: `Inquiry From BZY-KAI.com`,
+                name: `Name: ${name}`,
                 email: `Email: ${email}`,
-                shoes: `Shoes: ${shoeStyle} ${shoeSize}`,
-                message: info
+                message: message
             };
 
             setButtonState(`SENDING...`);
@@ -78,7 +73,7 @@ export default function ContactForm() {
                 onSubmit={handleSubmit}
                 id="contact-form"
             >
-                <FormName />
+                {/* <FormName /> */}
                 <FormBody />
                 <FormText />
                 <Button variant="dark" type="submit">

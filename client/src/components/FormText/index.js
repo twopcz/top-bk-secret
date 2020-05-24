@@ -5,16 +5,16 @@ export default function FormText() {
     return (
         <Form.Group controlId="info">
             <Form.Label>
-                <b>INFO</b>
+                <b>MESSAGE</b>
             </Form.Label>
             <Form.Control
                 required
                 as="textarea"
                 rows="4"
-                placeholder="Additional Information"
+                placeholder="Message details"
             />
             <Form.Control.Feedback type="invalid">
-                Please enter details regarding your custom shoe inquiry.
+                Please enter details regarding your inquiry.
             </Form.Control.Feedback>
         </Form.Group>
     );

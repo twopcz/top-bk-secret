@@ -4,18 +4,14 @@ import React from 'react';
 export default function FormBody() {
     const body = [
         {
+            control: `name`,
+            label: `Name`,
+            invalid: `Please enter your name.`
+        },
+        {
             control: `email`,
             label: `Email`,
             invalid: `Please enter your email.`
-        },
-        {
-            control: `shoeStyle`,
-            label: `Shoe Style`,
-            invalid: `Please enter a shoe style.`
-        },
-        {
-            control: `shoeSize`,
-            label: `Shoe Size (US MEN'S)`
         }
     ];
 
