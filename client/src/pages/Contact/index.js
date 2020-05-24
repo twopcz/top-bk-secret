@@ -1,7 +1,7 @@
 import { Col } from 'react-bootstrap';
 import ContactForm from '../../components/ContactForm';
 import React from 'react';
-import Profile from './profile-800.png';
+import Profile from './profile-1200.png';
 
 export default function Contact() {
     return (
