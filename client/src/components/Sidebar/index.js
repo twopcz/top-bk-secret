@@ -7,10 +7,12 @@ import React from 'react';
 export default function Sidebar() {
     const navItems = [
         {
-            page: 'SHOP'
+            page: 'SHOP',
+            url: 'https://shop.bzy-kai.com/'
         },
         {
-            page: 'CONTACT'
+            page: 'CONTACT',
+            url: '/contact'
         }
     ];
 
@@ -32,7 +34,7 @@ export default function Sidebar() {
                             {navItems.map((link, index) => (
                                 <Nav.Item as="li" key={`list-${index}`}>
                                     <Nav.Link
-                                        href={`/${link.page.toLowerCase()}`}
+                                        href={link.url}
                                         className="text-center text-md-left"
                                     >
                                         {link.page}
