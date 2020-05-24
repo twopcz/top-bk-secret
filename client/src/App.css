@@ -18,6 +18,12 @@ html {
     }
 }
 
+@media screen and (max-width: 375px) {
+    body {
+        align-items: flex-start;
+    }
+}
+
 .App-header {
     background-color: #282c34;
     min-height: 100vh;

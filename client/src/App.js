@@ -10,7 +10,7 @@ import Sidebar from './components/Sidebar';
 function App() {
     return (
         <Router>
-            <Container fluid className="h-100">
+            <Container fluid className="h-100 pt-2 pt-md-0">
                 <Row className="min-vh-100 flex-column flex-md-row">
                     <Sidebar />
                     <Route exact path="/" component={Shop} />
