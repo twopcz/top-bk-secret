@@ -23,7 +23,7 @@ export default function ContactForm() {
             event.preventDefault();
             const email = document.getElementById(`email`).value;
             const name = document.getElementById(`name`).value;
-            const message = document.getElementById(`message`).value;
+            const message = document.getElementById(`info`).value;
 
             const templateParams = {
                 subject: `Inquiry From BZY-KAI.com`,
