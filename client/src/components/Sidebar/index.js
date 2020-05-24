@@ -28,7 +28,9 @@ export default function Sidebar() {
                         <div className="d-flex flex-row flex-md-column">
                             <Nav.Item as="li">
                                 <Nav.Link href="/home">
-                                    <b>BZY KAI</b>
+                                    <span className="bzy-logo">
+                                        <b>BZY KAI</b>
+                                    </span>
                                 </Nav.Link>
                             </Nav.Item>
                             {navItems.map((link, index) => (

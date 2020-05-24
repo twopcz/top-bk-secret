@@ -21,6 +21,10 @@
     color: grey;
 }
 
+.bzy-logo {
+    color: black !important;
+}
+
 @media only screen and (max-width: 768px) {
     .sidebar {
         position: fixed;
