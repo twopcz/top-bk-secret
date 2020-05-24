@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function Home() {
     return (
-        <Col md={11} className="px-0 px-md-4">
+        <Col md={11} className="px-0 px-md-4 pt-5 pt-md-0">
             <Gallery />
         </Col>
     );
