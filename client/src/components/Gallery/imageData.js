@@ -14,8 +14,20 @@ import Tag from './images/bzy3-tag-800.png';
 
 const imageData = [
     {
-        img: Jordans,
-        alt: 'laker-unions'
+        img: Yellow,
+        alt: 'union-yellow-bg'
+    },
+    {
+        img: Air,
+        alt: 'bzy-air-ones'
+    },
+    {
+        img: Kobe3,
+        alt: 'vintage-kobe-threes'
+    },
+    {
+        img: Unc,
+        alt: 'vintage-unc-ones'
     },
     {
         img: Goku,
@@ -42,20 +54,8 @@ const imageData = [
         alt: 'kobe-portait'
     },
     {
-        img: Yellow,
-        alt: 'union-yellow-bg'
-    },
-    {
-        img: Air,
-        alt: 'bzy-air-ones'
-    },
-    {
-        img: Kobe3,
-        alt: 'vintage-kobe-threes'
-    },
-    {
-        img: Unc,
-        alt: 'vintage-unc-ones'
+        img: Jordans,
+        alt: 'laker-unions'
     },
     {
         img: Tag,
