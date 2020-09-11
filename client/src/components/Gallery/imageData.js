@@ -6,7 +6,7 @@ import Opm from './images/opm-yeezy-800.png';
 import Red from './images/red-yeezy-800.png';
 import Rose from './images/rose-vans-800.png';
 // new images upload 09-11-20
-import Yellow from './images/lakers-unions-yellow-800.png';
+import Yellow from './images/laker-unions-yellow-800.png';
 import Air from './images/solescence-800.png';
 import Kobe3 from './images/lakers-threes-800.png';
 import Unc from './images/unc-800.png';
