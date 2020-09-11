@@ -46,7 +46,7 @@ export default function Sidebar() {
                         </div>
                         <div className="d-flex justify-content-center py-2 contact-info">
                             <a
-                                href="https://www.instagram.com/bzy.kai/"
+                                href="https://www.instagram.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="my-auto"
