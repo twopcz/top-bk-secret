@@ -13,7 +13,7 @@ function App() {
                 <Row className="min-vh-100 flex-column flex-md-row">
                     <Sidebar />
                     <Route exact path="/" component={Home} />
-                    <Route path="/contact" component={Contact} />
+                    <Route exact path="/contact" component={Contact} />
                 </Row>
             </Container>
         </Router>
