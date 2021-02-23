@@ -1,6 +1,6 @@
 # bzy-kai.com
 
-Artist website with a gallery to highlight past works, a shop for custom made-to-order shoes, and a contact form for customers to inquire.
+Artist website with a gallery to highlight past works, a shop for custom made-to-order shoes, and a contact form for customer inquiries.
 
 ### Usage
 
