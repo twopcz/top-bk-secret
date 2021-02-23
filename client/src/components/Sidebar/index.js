@@ -29,7 +29,7 @@ export default function Sidebar() {
                             <Nav.Item as="li">
                                 <Nav.Link href="/">
                                     <span className="bzy-logo">
-                                        <b>BZY KAI</b>
+                                        <b>ANT KAI</b>
                                     </span>
                                 </Nav.Link>
                             </Nav.Item>
@@ -46,7 +46,7 @@ export default function Sidebar() {
                         </div>
                         <div className="d-flex justify-content-center py-2 contact-info">
                             <a
-                                href="https://www.instagram.com/"
+                                href="https://www.instagram.com/ant.kai"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="my-auto"
