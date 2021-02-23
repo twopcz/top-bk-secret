@@ -26,7 +26,7 @@ export default function ContactForm() {
             const message = document.getElementById(`info`).value;
 
             const templateParams = {
-                subject: `Inquiry From BZY-KAI.com`,
+                subject: `Inquiry From ANT-KAI.com`,
                 name: `Name: ${name}`,
                 email: `Email: ${email}`,
                 message: message
