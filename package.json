@@ -24,6 +24,7 @@
     },
     "homepage": "https://github.com/twopcz/top-bk-secret#readme",
     "dependencies": {
+        "emailjs-com": "^2.6.4",
         "if-env": "^1.0.4"
     },
     "devDependencies": {
