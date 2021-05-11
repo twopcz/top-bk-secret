@@ -8,7 +8,7 @@ export default function Sidebar() {
     const navItems = [
         {
             page: 'SHOP',
-            url: 'https://shop.ant-kai.com/'
+            url: 'https://shop.antkai.com/'
         },
         {
             page: 'CONTACT',
