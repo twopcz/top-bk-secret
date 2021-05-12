@@ -12,7 +12,7 @@ export default function Sidebar() {
         },
         {
             page: 'CONTACT',
-            url: '/#/contact'
+            url: '/contact'
         }
     ];
 
