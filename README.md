@@ -1,4 +1,4 @@
-# bzy-kai.com
+# antkai.com
 
 Artist website with a gallery to highlight past works, a shop for custom made-to-order shoes, and a contact form for customer inquiries.
 
@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## View
 
-To visit the website, click [here](https://bzy-kai.com/)
+To visit the website, click [here](https://antkai.com/)
 
 ### Screenshots
 
