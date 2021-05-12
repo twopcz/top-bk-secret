@@ -1,16 +1,16 @@
-import Goku from './images/goku-greeks-800.png';
-import Jordans from './images/laker-unions-800.png';
-import Kaws from './images/kaws-vans-800.png';
-import Kobe from './images/kobe-pic-800.png';
-import Opm from './images/opm-yeezy-800.png';
-import Red from './images/red-yeezy-800.png';
-import Rose from './images/rose-vans-800.png';
+import Goku from './portfolio_images_old/goku-greeks-800.png';
+import Jordans from './portfolio_images_old/laker-unions-800.png';
+import Kaws from './portfolio_images_old/kaws-vans-800.png';
+import Kobe from './portfolio_images_old/kobe-pic-800.png';
+import Opm from './portfolio_images_old/opm-yeezy-800.png';
+import Red from './portfolio_images_old/red-yeezy-800.png';
+import Rose from './portfolio_images_old/rose-vans-800.png';
 // new images upload 09-11-20
-import Yellow from './images/laker-unions-yellow-800.png';
-import Air from './images/solescence-800.png';
-import Kobe3 from './images/lakers-threes-800.png';
-import Unc from './images/unc-800.png';
-import Tag from './images/bzy3-tag-800.png';
+import Yellow from './portfolio_images_old/laker-unions-yellow-800.png';
+import Air from './portfolio_images_old/solescence-800.png';
+import Kobe3 from './portfolio_images_old/lakers-threes-800.png';
+import Unc from './portfolio_images_old/unc-800.png';
+import Tag from './portfolio_images_old/bzy3-tag-800.png';
 
 const imageData = [
     {

@@ -1,14 +1,14 @@
-import One from './lookbook/1.jpg';
-import Two from './lookbook/2.jpg';
-import Three from './lookbook/3.jpg';
-import Four from './lookbook/4.jpg';
-import Five from './lookbook/5.jpg';
-import Six from './lookbook/6.jpg';
-import Seven from './lookbook/7.jpg';
-import Eight from './lookbook/8.jpg';
-import Nine from './lookbook/9.jpg';
-import Ten from './lookbook/10.jpg';
-import Eleven from './lookbook/11.png';
+import One from './lookbook_images/1.jpg';
+import Two from './lookbook_images/2.jpg';
+import Three from './lookbook_images/3.jpg';
+import Four from './lookbook_images/4.jpg';
+import Five from './lookbook_images/5.jpg';
+import Six from './lookbook_images/6.jpg';
+import Seven from './lookbook_images/7.jpg';
+import Eight from './lookbook_images/8.jpg';
+import Nine from './lookbook_images/9.jpg';
+import Ten from './lookbook_images/10.jpg';
+import Eleven from './lookbook_images/11.png';
 
 const lookbookData = [
     {

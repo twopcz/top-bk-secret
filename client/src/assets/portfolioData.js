@@ -1,20 +1,20 @@
-import One from './images2/1.jpg';
-import Two from './images2/2.jpeg';
-import Three from './images2/3.jpg';
-import Four from './images2/4.jpeg';
-import Five from './images2/5.jpeg';
-import Six from './images2/6.jpg';
-import Seven from './images2/7.jpeg';
-import Eight from './images2/8.JPG';
-import Nine from './images2/9.jpeg';
-import Ten from './images2/10.jpeg';
-import Eleven from './images2/11.jpeg';
-import Twelve from './images2/12.jpg';
-import Thirteen from './images2/13.jpeg';
-import Fourteen from './images2/14.JPG';
-import Fifteen from './images2/15.jpeg';
+import One from './portfolio_images/1.jpg';
+import Two from './portfolio_images/2.jpeg';
+import Three from './portfolio_images/3.jpg';
+import Four from './portfolio_images/4.jpeg';
+import Five from './portfolio_images/5.jpeg';
+import Six from './portfolio_images/6.jpg';
+import Seven from './portfolio_images/7.jpeg';
+import Eight from './portfolio_images/8.JPG';
+import Nine from './portfolio_images/9.jpeg';
+import Ten from './portfolio_images/10.jpeg';
+import Eleven from './portfolio_images/11.jpeg';
+import Twelve from './portfolio_images/12.jpg';
+import Thirteen from './portfolio_images/13.jpeg';
+import Fourteen from './portfolio_images/14.JPG';
+import Fifteen from './portfolio_images/15.jpeg';
 
-const imageData2 = [
+const portfolioData = [
     {
         img: One,
         alt: `jordan-one-lakers-marble`
@@ -77,4 +77,4 @@ const imageData2 = [
     }
 ];
 
-export default imageData2;
+export default portfolioData;
