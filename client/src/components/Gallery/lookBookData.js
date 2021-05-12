@@ -10,7 +10,7 @@ import Nine from './lookbook/9.jpg';
 import Ten from './lookbook/10.jpg';
 import Eleven from './lookbook/11.png';
 
-const lookBookData = [
+const lookbookData = [
     {
         img: One,
         alt: `jordan-one-taupe-grey`
@@ -57,4 +57,4 @@ const lookBookData = [
     }
 ];
 
-export default lookBookData;
+export default lookbookData;
