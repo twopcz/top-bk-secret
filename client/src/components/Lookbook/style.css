@@ -11,9 +11,8 @@
     height: auto;
 }
 
-.container {
+.gallery-container {
     position: relative;
-    width: 50%;
 }
 
 .image {
@@ -36,11 +35,11 @@
     text-align: center;
 }
 
-.container:hover .image {
+.gallery-container:hover .image {
     opacity: 0.2;
 }
 
-.container:hover .middle {
+.gallery-container:hover .middle {
     opacity: 1;
 }
 
@@ -50,11 +49,17 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .container:hover .image {
+    .gallery-container:hover .image {
         opacity: 0.2;
     }
 
-    .container:hover .middle {
+    .gallery-container:hover .middle {
         opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .text {
+        font-size: 0.6em;
     }
 }
