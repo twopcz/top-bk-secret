@@ -1,6 +1,6 @@
 import './style.css';
 import { Col } from 'react-bootstrap';
-import Gallery from '../../components/Gallery';
+import Gallery from '../../components/Lookbook';
 import Pictures from '../../assets/lookbookData';
 import React from 'react';
 
