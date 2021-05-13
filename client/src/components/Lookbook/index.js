@@ -21,7 +21,7 @@ export default function Gallery(props) {
                 <div className="gallery d-flex flex-column flex-md-row flex-nowrap my-auto">
                     {props.images.map((image, index) => (
                         <div
-                            className="gallery-item container px-0"
+                            className="gallery-item gallery-container px-0"
                             key={`gallery-${index}`}
                         >
                             <img
