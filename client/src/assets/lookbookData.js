@@ -70,7 +70,7 @@ const lookbookData = [
     {
         img: Ten,
         alt: `jordan-one-ichiro`,
-        desc: `<h4>$1250</h4><h6>Base pair: AJ1 High Shadow/Black 1.0</h6>
+        desc: `<h4>$475</h4><h6>Base pair: AJ1 High Shadow/Black 1.0</h6>
         Custom features the Seattle Mariners team colors in the Air Jordan 1’s classic two-tone color blocking, with a silhouette of Ichiro’s signature stance at the batter’s box. Based on an unreleased sample Jordan brand possibly made while trying to recruit Ichiro. Note, custom will have black soles, not Teal as pictured.`
     },
     {
