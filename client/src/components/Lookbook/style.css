@@ -48,3 +48,13 @@
     color: black;
     font-size: 14px;
 }
+
+@media (hover: hover) and (pointer: fine) {
+    .container:hover .image {
+        opacity: 0.2;
+    }
+
+    .container:hover .middle {
+        opacity: 1;
+    }
+}
