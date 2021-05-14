@@ -17,7 +17,7 @@ export default function Sidebar() {
     ];
 
     return (
-        <Col md={1} className="p-0 bg-light sidebar-container">
+        <Col md={1} className="p-0 pb-1 bg-light sidebar-container">
             <Navbar
                 expand
                 bg="light"
