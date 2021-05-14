@@ -1,30 +1,11 @@
 import './style.css';
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-<<<<<<< HEAD
-=======
 import lookbookData from '../../assets/lookbookData';
->>>>>>> lookbook
 
 export default function Gallery(props) {
     return (
         <Container fluid className="h-100">
-<<<<<<< HEAD
-            {/* <Row>
-                <div>
-                    PLEASE READ/PRICING This is a private look book please do
-                    not share or post on social media. Prices are for
-                    customization work and shipping only. Base pair must be
-                    provided by customer; you can either ship your pair to
-                    me,  or add extra $ for me to purchase based on the shoes
-                    current resale rate in your size.  Shoes will be sourced
-                    from StockX, GOAT, or eBay. Planing to do 1 pair of each for
-                    now.
-                </div>
-            </Row> */}
-            <Row className="h-100 justify-content-center">
-                <div className="gallery d-flex flex-column flex-md-row flex-nowrap my-auto">
-=======
             <Row className="h-100 justify-content-center">
                 <div className="gallery d-flex flex-column flex-md-row flex-nowrap my-auto">
                     <div className="gallery-item gallery-container px-0">
@@ -62,7 +43,6 @@ export default function Gallery(props) {
                             etc. I will update you along the way.
                         </div>
                     </div>
->>>>>>> lookbook
                     {props.images.map((image, index) => (
                         <div
                             className="gallery-item gallery-container px-0"

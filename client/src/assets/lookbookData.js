@@ -79,8 +79,6 @@ const lookbookData = [
         alt: `anime-custom-panels`,
         desc: `<h4>$700</h4><h6>Base pair: Any leather/suede/canvas shoe</h6>
         Custom includes 1 character on outer panel of each shoe. Main focus will be of the characters’ face or half body, depending on what fits the shoe the best. For examples refer to my past work of Goku done on Zoom Freak 1s or One Punch Man done on Yeezy Powerphrase.`
-<<<<<<< HEAD
-=======
     },
     {
         img: Twelve,
@@ -91,7 +89,6 @@ const lookbookData = [
         <h4>HOW TO CLAIM</h4>
         To claim your pair, send an email to antkai@antkai.com with the idea you’d wish to buy in the subject line. You can include a backup choice in case your first choice was already taken. I’ll let you know if you were the first to claim, and have you send a $150 deposit which will hold your spot in line and go towards your total price.<br>
         Projects may take anywhere from 6-15+ weeks depending on the difficulty of the design, your place in line, my current list prior to presale, etc. I will update you along the way.`
->>>>>>> lookbook
     }
 ];
 
