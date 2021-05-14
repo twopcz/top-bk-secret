@@ -9,6 +9,7 @@ import Eight from './lookbook_images/8.jpg';
 import Nine from './lookbook_images/9.jpg';
 import Ten from './lookbook_images/10.jpg';
 import Eleven from './lookbook_images/11.png';
+import Twelve from './lookbook_images/12.png';
 
 const lookbookData = [
     {
@@ -78,6 +79,16 @@ const lookbookData = [
         alt: `anime-custom-panels`,
         desc: `<h4>$700</h4><h6>Base pair: Any leather/suede/canvas shoe</h6>
         Custom includes 1 character on outer panel of each shoe. Main focus will be of the characters’ face or half body, depending on what fits the shoe the best. For examples refer to my past work of Goku done on Zoom Freak 1s or One Punch Man done on Yeezy Powerphrase.`
+    },
+    {
+        img: Twelve,
+        alt: `terms`,
+        desc: `<h4>PLEASE READ/PRICING</h4>
+        This is a private look book, please do not share. Link will be active for a limited time.<br>
+        Prices are for customization work and shipping only. Base pair must be provided by client; you can either ship your pair to me, or add extra $ for me to purchase based on the shoes current resale rate in your size. Shoes will be sourced from StockX, GOAT, or eBay. Add extra $ for international shipping. Planning to do 1 pair of each for now.<br><br>
+        <h4>HOW TO CLAIM</h4>
+        To claim your pair, send an email to antkai@antkai.com with the idea you’d wish to buy in the subject line. You can include a backup choice in case your first choice was already taken. I’ll let you know if you were the first to claim, and have you send a $150 deposit which will hold your spot in line and go towards your total price.<br>
+        Projects may take anywhere from 6-15+ weeks depending on the difficulty of the design, your place in line, my current list prior to presale, etc. I will update you along the way.`
     }
 ];
 
