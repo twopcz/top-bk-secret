@@ -1,7 +1,7 @@
 import './style.css';
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import lookbookData from '../../assets/lookbookData';
+import Twelve from '../../assets/lookbook_images/12.png';
 
 export default function Gallery(props) {
     return (
@@ -11,7 +11,7 @@ export default function Gallery(props) {
                     <div className="gallery-item gallery-container px-0">
                         <img
                             className="gallery-image image"
-                            src={props.images[lookbookData.length - 1].img}
+                            src={Twelve}
                             alt="test"
                         ></img>
                         <div class="terms text">
