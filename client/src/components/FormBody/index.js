@@ -9,13 +9,12 @@ export default function FormBody() {
             {
                 control: `name`,
                 label: `Name`,
-                invalid: `Please enter your name.`,
-                size: 8
+                invalid: `Please enter your name.`
             },
             {
                 control: `instagram`,
                 label: `Instagram`,
-                message: `@instagram`,
+                placeHolder: `@`,
                 invalid: `Please enter your handle.`
             }
         ],
@@ -30,13 +29,14 @@ export default function FormBody() {
             {
                 control: `shoe`,
                 label: `Base Shoe`,
-                message: `Please note if they are new, used, or need to be provided`,
+                text: `Please note if they are new, used, or need to be provided.`,
                 invalid: `Please enter information about the base shoe.`,
                 size: 8
             },
             {
                 control: `size`,
-                label: `Size (US MEN'S)`
+                label: `Size`,
+                text: `US Men's`
             }
         ],
         [
@@ -52,6 +52,7 @@ export default function FormBody() {
     ];
 
     const shoeSizes = [
+        `US MEN'S`,
         5,
         5.5,
         6,
@@ -138,12 +139,15 @@ export default function FormBody() {
                                                     : `text`
                                             }
                                             placeholder={
-                                                !form.message
+                                                !form.placeHolder
                                                     ? form.label
-                                                    : form.message
+                                                    : form.placeHolder
                                             }
                                             key={`${form.control}-${index}`}
                                         />
+                                        <Form.Text>
+                                            {form.text ? form.text : ``}
+                                        </Form.Text>
                                         <Form.Control.Feedback type="invalid">
                                             {form.invalid}
                                         </Form.Control.Feedback>
