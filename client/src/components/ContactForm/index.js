@@ -21,14 +21,24 @@ export default function ContactForm() {
 
         if (form.checkValidity() === true) {
             event.preventDefault();
-            const email = document.getElementById(`email`).value;
             const name = document.getElementById(`name`).value;
+            const email = document.getElementById(`email`).value;
+            const instagram = document.getElementById(`instagram`).value;
+            const shoe = document.getElementById(`shoe`).value;
+            const size = document.getElementById(`size`).value;
+            const service = document.getElementById(`service`).value;
+            const shipping = document.getElementById(`location`).value;
             const message = document.getElementById(`info`).value;
 
             const templateParams = {
                 subject: `Inquiry From ANT-KAI.com`,
                 name: `Name: ${name}`,
                 email: `Email: ${email}`,
+                instagram: `Instagram: https://instagram.com/${instagram}/`,
+                shoe: `Style: ${shoe}`,
+                size: `Size: ${size}`,
+                service: `Service: ${service}`,
+                shipping: `Shipping: ${location}`,
                 message: message
             };
 
