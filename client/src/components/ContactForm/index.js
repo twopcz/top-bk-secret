@@ -34,7 +34,7 @@ export default function ContactForm() {
                 subject: `Inquiry From ANT-KAI.com`,
                 name: `Name: ${name}`,
                 email: `Email: ${email}`,
-                instagram: `Instagram: https://instagram.com/${instagram}/`,
+                instagram: `Instagram: ${instagram}`,
                 shoe: `Style: ${shoe}`,
                 size: `Size: ${size}`,
                 service: `Service: ${service}`,
