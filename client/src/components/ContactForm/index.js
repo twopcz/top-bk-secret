@@ -38,7 +38,7 @@ export default function ContactForm() {
                 shoe: `Style: ${shoe}`,
                 size: `Size: ${size}`,
                 service: `Service: ${service}`,
-                shipping: `Shipping: ${location}`,
+                shipping: `Shipping: ${shipping}`,
                 message: message
             };
 
