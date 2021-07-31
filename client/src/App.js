@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container, Row } from 'react-bootstrap';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
