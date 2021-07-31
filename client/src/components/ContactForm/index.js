@@ -27,7 +27,7 @@ export default function ContactForm() {
             const shoe = document.getElementById(`shoe`).value;
             const size = document.getElementById(`size`).value;
             const service = document.getElementById(`service`).value;
-            const shipping = document.getElementById(`location`).value;
+            const location = document.getElementById(`location`).value;
             const message = document.getElementById(`info`).value;
 
             const templateParams = {
@@ -38,7 +38,7 @@ export default function ContactForm() {
                 shoe: `Style: ${shoe}`,
                 size: `Size: ${size}`,
                 service: `Service: ${service}`,
-                shipping: `Shipping: ${shipping}`,
+                location: `Shipping: ${location}`,
                 message: message
             };
 
