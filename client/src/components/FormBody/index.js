@@ -29,14 +29,13 @@ export default function FormBody() {
             {
                 control: `shoe`,
                 label: `Base Shoe`,
-                text: `Please note if they are new, used, or need to be provided.`,
                 invalid: `Please enter information about the base shoe.`,
                 size: 8
             },
             {
                 control: `size`,
                 label: `Size`,
-                text: `US Men's`
+                text: `(US MEN'S)`
             }
         ],
         [
@@ -52,7 +51,6 @@ export default function FormBody() {
     ];
 
     const shoeSizes = [
-        `US MEN'S`,
         5,
         5.5,
         6,
@@ -145,14 +143,14 @@ export default function FormBody() {
                                             }
                                             key={`${form.control}-${index}`}
                                         />
-                                        <Form.Text>
-                                            {form.text ? form.text : ``}
-                                        </Form.Text>
                                         <Form.Control.Feedback type="invalid">
                                             {form.invalid}
                                         </Form.Control.Feedback>
                                     </>
                                 )}
+                                <Form.Text>
+                                    {form.text ? form.text : ``}
+                                </Form.Text>
                             </Form.Group>
                         </Col>
                     ))}
