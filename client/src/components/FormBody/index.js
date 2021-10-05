@@ -74,7 +74,7 @@ export default function FormBody() {
         `Other`
     ];
 
-    const services = [`Aging`, `Custom`];
+    const services = [`Aging`, `Custom`, `Waitlist`];
 
     const shipping = [`USA`, `International`];
 
