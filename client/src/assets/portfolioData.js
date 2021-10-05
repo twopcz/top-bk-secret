@@ -13,6 +13,7 @@ import Twelve from './portfolio_images/12.jpg';
 import Thirteen from './portfolio_images/13.jpeg';
 import Fourteen from './portfolio_images/14.JPG';
 import Fifteen from './portfolio_images/15.jpeg';
+// new assets uploaded 10-05-21
 
 const portfolioData = [
     {
