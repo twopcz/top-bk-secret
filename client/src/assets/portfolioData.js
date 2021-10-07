@@ -1,4 +1,4 @@
-import First from './portfolio_1005/1.jpg';
+import First from './portfolio_1005/1.jpeg';
 import Second from './portfolio_1005/2.jpg';
 import Third from './portfolio_1005/3.jpg';
 import Fourth from './portfolio_1005/4.jpg';
