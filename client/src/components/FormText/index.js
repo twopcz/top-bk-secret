@@ -11,7 +11,7 @@ export default function FormText() {
                 required
                 as="textarea"
                 rows="4"
-                placeholder="Message details"
+                placeholder="Confirm if you currently own base shoe or if they need to be ordered, if the project is time sensitive or if you’re okay to wait, projected budget, and/or any additional details."
             />
             <Form.Control.Feedback type="invalid">
                 Please enter details regarding your inquiry.
