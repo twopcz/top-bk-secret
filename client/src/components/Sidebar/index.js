@@ -6,10 +6,10 @@ import React from 'react';
 
 export default function Sidebar() {
     const navItems = [
-        // {
-        //     page: 'SHOP',
-        //     url: 'https://shop.antkai.com/'
-        // },
+        {
+            page: 'SHOP',
+            url: 'https://shop.antkai.com/'
+        },
         {
             page: 'CONTACT',
             url: '/contact'
